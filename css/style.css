@@ -1,0 +1,367 @@
+/* ------ Specification ------ */
+body{
+    font-family: "Arial", sans-serif;
+    font-weight:  regular;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+	font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.6em
+}
+h1{
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 8px;
+}
+h2 {
+    font-size: 36px;
+    }
+h3{
+    font-size: 24px;
+    text-align: center;
+    }
+    .justify-content-between {
+	justify-content: space-between;
+}
+.align-items-center {
+	align-items: center;
+}
+a, a:hover, a:active {
+	text-decoration: none;
+}
+.btn{
+    color: green;
+    border: 1px solid green;
+    background: transparent;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 5px;
+     /* height: 16px;  */
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+.container-fluid_plain{
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+   
+}
+.color-green{
+    color: green;
+}
+.white-background{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* ------ Header ------ */
+
+.header{
+    position: relative;
+}
+/* ------ Header - header-top ------ */
+.header-top{
+    background: url(../img/3.jpg) no-repeat top center;
+}
+.header-top__fonts{
+    padding-bottom: 63px;
+    padding-top: 60px;
+}
+.navigation{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 111;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.menu{
+    justify-content: center;
+    list-style: none ;
+    padding-inline-start: 0;
+}
+.menu__item{
+    background: #509600;
+    margin-right: 1px;
+    width:160px;
+    padding: 8px 0;
+    text-align: center;
+    }
+.menu__item a{
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+}
+   .menu li:first-child{
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+.menu li:last-child{
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+.menu__item a:hover {
+    
+}
+/* ------ Header - header-top  "END"------ */
+/* ------ Slider-Header ------ */
+.slider_blok{
+    position: relative;
+    height: 611px;
+}
+.slider_title{
+    position: absolute;
+    top: 49%;
+    left: 30%; 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+.slider_title__two{
+    top: 45%;
+    left: 30%;
+    font-size: 54px;
+    color: #000;
+    font-weight: bold;
+}
+.slider_title__two span{
+    font-size: 32px;
+    color: #1f8110;
+    font-weight: bold;
+    display: block;
+}
+.slick-prev{
+    left: 10px;
+    z-index: 1;
+}
+.slick-next {
+    right: 10px;
+}
+/* ------ Slider-Header "END"------ */
+
+/* ------ -Header "END"------ */
+
+/* ------Section lawns ------ */
+
+.lawns{
+    padding-bottom: 30px;
+}
+.lawns__info{
+    align-items: center;
+}
+.lawns__icon{
+    width: 113px;
+    height: 113px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.lawns__text{
+    width: 230px;
+}
+ .lawns__icon_pencil{
+
+ }
+/* ------Section lawns "END"------ */
+
+/* ------Section works ------ */
+.works{
+    background: url(../img/fon-primer.jpg) no-repeat top center/cover;
+}
+.works__white-background{
+    padding-bottom: 115px;
+    padding-top: 30px;
+    
+}
+.works__project{
+    margin-bottom: 15px;
+    position: relative;
+}
+.works__img{
+    height: 100%;
+}
+.works__overlay {
+	background: rgba(226,75,72,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: center;
+    padding-top: 35%;
+}
+.works__overlay:hover   {
+	opacity: 1;
+}
+.works__link{
+    color: #fff;
+}
+.works__link:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+/* ------Section works "END"------ */
+
+/* ------Section "consultation" ------ */
+
+.consultation{
+    background-color: #509600;
+    padding: 34px 0;
+}
+.consultation h2{
+    color: #fff;
+    font-size: 48px;
+    line-height: 0.9em;
+}
+
+/* ------ consultation -"icon-arrow" ------ */
+.icon-arrow{
+    position: relative;
+    z-index: 10;
+}
+.icon-arrow-two{
+    position: relative;
+    left: 15px;
+
+ }
+.icon-arrow::after {
+    content: ''; 
+    position: absolute; 
+    left: 15px; 
+    top: -50px; 
+    border: 50px solid transparent;	
+    border-left: 50px solid #509600;
+    z-index: 2;
+   }
+   .icon-arrow::before {
+    content: ''; 
+    position: absolute; 
+    left: 20px; 
+    top: -50px; 
+    border: 50px solid transparent;	
+    border-left: 50px solid #fff;
+    z-index: 1;
+   }
+   .icon-arrow-two::after {
+    content: ''; 
+    position: absolute; 
+    left: 15px;  
+    top: -50px;
+    border: 50px solid transparent;	
+    border-left: 50px solid #509600;
+    z-index: 2;
+   }
+   .icon-arrow-two::before {
+    content: ''; 
+    position: absolute; 
+    left: 20px;
+        top: -50px; 
+    border: 50px solid transparent;	
+    border-left: 50px solid #fff;
+    z-index: 1;
+   }
+   /* ------ consultation - icon-arrow  "END" ------ */
+
+   .consultation__info{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+   }
+   .consultation__btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+   }
+   /* ------Section consultation "END"------ */
+
+/* ------footer ------ */
+
+.footer {
+    background: #3a3e63;
+	padding: 50px 0 60px 0;
+}.footer p{
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.company__text{
+   
+}
+.exclusive span{
+    color: #00ff00;
+}
+.link__social a{
+    /* display: block; */
+    color: #fff;
+    font-size: 30px;
+}
+.link__company a{
+    display: block;
+    color: #fff;
+   
+}
+.footer__contact{
+
+}
+.footer__contact_tel{
+    margin: 0;
+    color: #fff;
+}
+.icon-marker{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 25px;
+}
+.footer__contact_adress p{
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ------ Media Queries ------ */
+/* 992-1200px */
+@media screen and (max-width: 1200px){
+    
+    }
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+    
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+   
+	
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	
+	
+}
+
+  
