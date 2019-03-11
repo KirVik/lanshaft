@@ -88,9 +88,6 @@ p{
     left: 0;
     z-index: 111;
 }
-.navigation[about.html]{
-    top: 10%;
-}
 .logo{
     font-size: 30px;
     text-transform: uppercase;
