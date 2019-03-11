@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
     font-size: 20px;
-    margin-left: 30px;
     text-align: center;
     margin-top: 8px;
 }
@@ -40,12 +39,11 @@ a, a:hover, a:active {
     font-weight: 700;
     padding: 10px 10px;
     border-radius: 5px;
-     /* height: 16px;  */
-}
+    margin-top: 5px;
+   }
 input, input:hover, input:focus, input:active,
 button, button:hover, button:focus, button:active
-
- {
+{
 	outline: none;
 }
 .container-fluid_plain{
@@ -65,6 +63,10 @@ img {
 .white-background{
     background-color: rgba(255, 255, 255, 0.7);
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 /* ------ Header ------ */
 
 .header{
@@ -72,7 +74,8 @@ img {
 }
 /* ------ Header - header-top ------ */
 .header-top{
-    background: url(../img/3.jpg) no-repeat top center;
+    background: url(../img/3.jpg) no-repeat top center/cover;
+    position: relative;
 }
 .header-top__fonts{
     padding-bottom: 63px;
@@ -85,9 +88,15 @@ img {
     left: 0;
     z-index: 111;
 }
+.navigation[about.html]{
+    top: 10%;
+}
 .logo{
     font-size: 30px;
     text-transform: uppercase;
+}
+.namber-tel{
+    margin-top: 13px;
 }
 .menu{
     justify-content: center;
@@ -340,6 +349,30 @@ img {
 .footer__contact_adress p{
     font-size: 14px;
     text-align: center;
+}
+/* ----- Footer END -----*/
+
+/* ----- About.html -----*/
+
+.about-navigation{
+    top: 9%;
+}
+.about-title{
+
+}
+.about-title h1{
+    font-size: 48px;
+    padding-top: 40px;
+}
+
+.about-info{
+    background: url(../img/fon-primer.jpg) no-repeat top center/cover;
+    
+}
+.about-info__white-background{
+   
+    /* padding-top: 40px; */
+    
 }
 
 /* ------ Media Queries ------ */
